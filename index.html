@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="greet.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Greeting Exercise</h1>
+      </div>
+      
+      <div class="languagebelow"><h3>Enter your name below</h3></div>
+      <div>      <section class="input-field">
+        <div class="input">
+
+          <form>
+            <label for="name"></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name here"
+              minlength="3"
+              maxlength="20"
+              required
+            />
+          </form>
+        </div>
+      </section></div>
+       <div class="languagebelow"><h3>Select Language below</h3></div>
+
+      <section class="radio-buttons-languages">
+        <div class="radio-buttons">
+          <input
+            type="radio"
+            id="isiXhosa"
+            name="greet-language"
+            value="IsiXhosa"
+          />
+          <label for="isixhosa">IsiXhosa</label>
+
+          <input
+          type="radio"
+          id="english"
+          name="greet-language"
+          value="English"
+        />
+        <label for="english">English</label>
+
+          <input
+            type="radio"
+            id="isiZulu"
+            name="greet-language"
+            value="isiZulu"
+          />
+          <label for="isiZulu">isiZulu</label>
+        </div>
+      </section>
+      <section class="greet">
+        <div class="greet-bttn">
+          <button class="bttn1" type="button">Greet</button>
+          <button class="bttn2" type="button">clear</button>
+        </div>
+      </section>
+
+      <section class="text-message">
+        <p id="text">Message will show here</p>
+      </section>
+      <section class="counting">
+        <div class="counter">
+          <p><span class="display" value="0"></span></p>
+        </div>
+      </section>
+    </div>
+    <script src="greet-Factory.js" charset="UTF-8"></script>
+    <script src="greet-DOM.js" charset="UTF-8"></script>
+  </body>
+</html>

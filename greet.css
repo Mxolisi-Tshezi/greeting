@@ -1,0 +1,89 @@
+
+  html,body{
+
+  font-size: 24px;
+  height: 20%;
+  min-width: 20%;
+  margin: 0;
+  padding: 1em;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+ background-color: grey;
+  width: 100%;
+
+
+  }
+  
+  .container{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  #text {
+    text-align:center;
+    font-size: 32px;
+   
+  }
+
+  .languagebelow{ align-items: center;
+text-align: center;
+margin-bottom: 2em;
+
+}
+  .header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 60px;
+  
+  }
+  .input {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  #name{
+    width: 200px; 
+    padding: 5px; 
+  }
+  .radio-buttons {
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 50px;
+  }
+  .greet-bttn {
+    text-align: center;
+  }
+  .bttn1 {
+    padding: 5px 70px;
+    background-color: lightgray;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    
+  }
+  .bttn2{
+    padding: 5px 70px;
+    background-color: lightgrey;
+    margin-bottom: 40px;
+    margin-right: 20px;
+  
+  }
+  .counter{
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  input[type="radio"]{
+    margin: 0 10px 0 10px;
+    font-size: 30px;
+  }
+  
+  
+  @media (max-width:550px){
+    .container{
+      width:100%;
+      margin-top:50%;
+
+    }
+  }
