@@ -9,7 +9,7 @@ if (localStorage["Person"]) {
     TheNames = JSON.parse(localStorage.getItem("Person"));
 }
 document.querySelector(".display").innerHTML = TheNames.length;
-var greetingsInstance = GreetingsFactory(TheNames);
+var greetingsInstance = GreetFactory(TheNames);
 
 greetButton.addEventListener("click", function () {
   var checkedRadioBtn = document.querySelector(

@@ -1,7 +1,7 @@
-function GreetingsFactory(TheNames) {
+function GreetFactory(TheNames) {
+    var theUsername = 0;
     var namesList = TheNames || [];
     var Alphabets = /^[a-zA-Z]+$/;
-    var theUsername = 0;
 
     function setUsername(userName) {
         theUsername =
